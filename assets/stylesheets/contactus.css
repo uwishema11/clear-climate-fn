@@ -1,0 +1,112 @@
+*{
+    font-family: poppins;
+}
+#container{
+    PADDING-top: 1rem;
+    background-color:rgba(213, 244, 152, 0.86);
+}
+.container{
+   
+    margin-top: 5rem;
+    
+  margin-left:22rem;  /* 5% from the top, 15% from the bottom and centered */
+ 
+}
+
+form{
+    
+
+width: 60%;
+
+align-content: center;
+}
+
+h6{
+    text-align: center;
+}
+button{
+    width: 100%;
+   
+}
+h1{
+    margin-top: 1rem;
+    text-align: center;
+    font-family: poppins;
+    color: black;
+}
+ h5{
+    margin-top: 2rem;
+    text-align: center;
+   color:#667085;
+   font-size: 18PX;
+ }
+.btn{
+    padding: 10px;
+    background-color: #3A5335;
+}
+/* footer */
+#footer{
+    text-align: center;
+}
+
+#footer span{
+    padding: 100px;
+    
+}
+footer{
+   
+}
+
+.footer-container{
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+    .left{
+        margin-left: -2rem;
+    }
+    .number{
+        margin-left: 3.5rem;
+    }
+    .email{
+        margin-left: 4.2rem;
+    }
+    .icons{
+        margin-left: -9rem;
+    }
+    .email1{
+        margin-top: 2rem;
+    }
+    .email2{
+        margin-left: 1.2rem;
+        font-size: 15px;
+        width: 80px;
+    }
+    #contact{
+        padding-left: -50rem;
+        Font-family: Poppins;
+       
+        
+    }
+    footer h5{
+        font-weight: bolder;
+        color:#5C715E;
+    }
+
+    .right{
+        margin-right: 3rem;  
+    }
+   .faqs{
+    text-align: center;
+    padding-top: 5rem;
+    
+  
+   }
+   .faqs a{ text-decoration-line: none;
+    color: black; }
+
+   .last{
+    margin-top: 5rem;
+    padding-top: 2rem;
+    background-color: #D3D6A9;
+   }

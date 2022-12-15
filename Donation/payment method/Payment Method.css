@@ -1,0 +1,31 @@
+body {
+    background: #f5f5f5;
+    margin: 20px;
+}
+.rounded {
+    border-radius: 1rem;
+}
+.nav-pills .nav-link {
+    color: #555;
+}
+.nav-pills .nav-link.active {
+    color: white;
+}
+input[type="radio"] {
+    margin-right: 5px;
+}
+.bold {
+    font-weight: bold;
+}
+button{
+    background-color: #5C715E !important;
+    border-color: #5C715E !important;
+}
+ h4{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #5C715E !important;
+   text-align: center;
+   font-family: poppins;
+   color: white;
+ }

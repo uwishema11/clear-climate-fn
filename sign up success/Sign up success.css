@@ -1,0 +1,134 @@
+* {box-sizing: border-box;
+    font-family: poppins;
+   
+    }
+
+    
+    /* Set a style for all buttons */
+    button {
+      background-color: #3A5335;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 20%;
+      opacity: 0.9;
+      border-radius: 10px;
+      padding-left: 20px;
+    }
+    
+    button:hover {
+      opacity:1;
+    }
+    
+    /* Extra styles for the cancel button */
+    .cancelbtn {
+      padding: 14px 20px;
+      background-color: #f44336;
+    }
+    
+    /* Float cancel and signup buttons and add an equal width */
+    .cancelbtn, .signupbtn {
+      float: left;
+      width: 50%;
+    }
+    
+    /* Add padding to container elements */
+    .container {
+      padding: 80px;
+      background-color: #3A5335;
+      color: white;
+    }
+    p{
+        margin-top: 3rem;
+        text-align: center;
+        color: #5C715E;
+        
+        font-weight: bolder;
+
+    }
+   
+    /* The Modal (background) */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: #474e5d;
+      padding-top: 50px;
+    }
+    
+    /* Modal Content/Box */
+    .modal-content {
+        align-content: center;
+      
+        background:white;
+      margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+      border: 1px solid #888;
+      height: 600px;
+      width: 40%; /* Could be more or less, depending on screen size */
+    }
+    
+    /* Style the horizontal ruler */
+    hr {
+      border: 1px solid #f1f1f1;
+      margin-bottom: 25px;
+    }
+    
+    /* The Close Button (x) */
+    .close {
+      position: absolute;
+      right: 35px;
+      top: 15px;
+      font-size: 40px;
+      font-weight: bold;
+      color: #f1f1f1;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: #f44336;
+      cursor: pointer;
+    }
+    
+    /* Clear floats */
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    /* Change styles for cancel button and signup button on extra small screens */
+    @media screen and (max-width: 300px) {
+      .cancelbtn, .signupbtn {
+        width: 10%;
+      }
+    }
+    span{
+        padding-right: 65rem;
+    }
+  
+   
+    h3{
+        margin-top: 1rem;
+        font-size: 23px;
+        color: white;
+        
+        text-align: center;
+    }
+    .subscribed{
+      font-size: smaller;
+      padding-top: 1rem;
+      
+          }
+          h1{
+            font-size: 30px;
+            text-align: center;
+            padding-top: 5rem;
+            color: #5C715E;
+          }

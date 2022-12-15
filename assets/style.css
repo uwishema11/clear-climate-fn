@@ -1,0 +1,407 @@
+* {
+  font-family: "Poppins";
+}
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  background: #fff;
+  width: 100%;
+}
+
+.page-content {
+  margin-top: 100px;
+}
+
+nav {
+  max-height: 120px;
+  top: 0;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.nav-item {
+  margin: 16px;
+}
+
+ul li .nav-link {
+  font-weight: 500px;
+  color: black;
+  text-transform: capitalize;
+}
+
+.active {
+  background-color: #3a5335;
+  color: white !important;
+  border-radius: 16px;
+  padding: 14px 24px !important;
+}
+
+#card1 {
+  background-color: rgb(240, 248, 255);
+  color: white;
+  padding: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/assets/images/index_html1.svg);
+  border: none;
+  border-radius: 0;
+}
+
+.card-title {
+  width: 624px;
+  padding-bottom: 70px;
+}
+
+#card-text1 {
+  width: 624px;
+  z-index: 1500;
+  color: white;
+  padding-bottom: 70px;
+}
+
+.bg-transparent {
+  border-color: #3a5335;
+}
+
+.btn {
+  background-color: #3a5335;
+  border-color: #3a5335;
+}
+
+.card-body a {
+  text-decoration-line: none;
+}
+
+#title {
+  color: #3a5335;
+}
+
+span .card-title {
+  color: black;
+  font-weight: 700px;
+}
+
+#about {
+  width: 600px;
+}
+
+.about-us {
+  margin: 100px;
+}
+
+.about-us-climate {
+  padding: 46px;
+  background: rgba(213, 244, 152, 0.86);
+}
+
+#projects {
+  text-align: center;
+  font-weight: 223px;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+#blogs {
+  text-align: center;
+  font-weight: 223px;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.left {
+  margin-left: -2rem;
+}
+
+.number {
+  margin-left: 3.5rem;
+}
+
+.email {
+  margin-left: 4.2rem;
+}
+
+.icons {
+  margin-left: -9rem;
+}
+
+.email1 {
+  margin-top: 2rem;
+}
+
+.email2 {
+  margin-left: 1.2rem;
+  font-size: 15px;
+  width: 80px;
+}
+
+#contact {
+  padding-left: -50rem;
+}
+
+.right {
+  margin-right: 3rem;
+}
+
+.faqs {
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.faqs a {
+  text-decoration-line: none;
+  color: black;
+}
+
+.welcome-header {
+  height: 649px;
+  background: url(../assets/images/getinvolved_welcome.svg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.about-header {
+  height: 350px;
+  background: url(../assets/images/about_welcome.svg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.welcome-title {
+  position: absolute;
+  width: 624px;
+  height: 169px;
+  left: 242px;
+  top: 247px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 80px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -2px;
+  color: #ffffff;
+}
+
+.welcome-content {
+  position: absolute;
+  width: 624px;
+  height: 72px;
+  left: 242px;
+  top: 440px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.btn-primary {
+  background: #3a5335;
+}
+
+.btn-primary:hover {
+  background: #5c7e55;
+}
+
+.ngo-project {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  padding: 144px;
+}
+
+.ngo-content {
+  background: rgba(125, 163, 51, 0.86);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 144px;
+}
+
+.about-content {
+  background: #5c715e;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ngo-image {
+  height: 649px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.ngo1 {
+  background: url(../assets/images/getinvolved_ngo1.svg) no-repeat center center;
+}
+
+.ngo2 {
+  background: url(../assets/images/getinvolved_ngo2.svg) no-repeat center center;
+}
+
+.ngo3 {
+  background: url(../assets/images/getinvolved_ngo3.svg) no-repeat center center;
+}
+
+.about-mission {
+  background: url(../assets/images/about_mission.svg) no-repeat center center;
+}
+
+.about-vision {
+  background: url(../assets/images/about_vision.svg) no-repeat center center;
+}
+
+.about-section-footer {
+  background: url(../assets/images/about_edu.svg) no-repeat center center;
+}
+
+a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-decoration: none;
+}
+
+.forward-icon {
+  padding-left: 16px;
+}
+
+.projects {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 75px;
+  color: #3a5335;
+  margin: 36px;
+}
+
+.about-project {
+  margin: 16px;
+  border: none;
+}
+
+.about-project a {
+  text-align: right;
+  color: #000;
+}
+
+.about-clearclimate {
+  background: url(../assets/images/index_html2.svg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+/* footer styles */
+footer {
+  position: relative;
+  background: #d3d6a9;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  bottom: 0;
+  width: 100%;
+  padding: 36px;
+  margin-top: 36px;
+}
+
+footer .col {
+  text-align: center;
+}
+
+.row-headers {
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 16px;
+  color: #5c715e;
+}
+
+.row-footer {
+  padding: 16px;
+  font-size: 10px;
+}
+
+footer a {
+  display: inline-grid;
+  padding: 12px;
+}
+
+footer img {
+  width: 30px;
+}
+
+footer .col-single {
+  display: flex;
+  align-items: center;
+   font-size: 1.5rem;
+  justify-content: center;
+}
+
+footer .col-single i{
+   font-size: 1.5rem;
+    color: rgb(230, 14, 14);
+}
+
+footer .contacts {
+  font-weight: bolder;
+  font-size: 12px;
+}
+.socials {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+
+}
+
+.socials li {
+  margin: 0 10px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: rgb(46, 26, 26);
+}
+
+.socials a i {
+  font-size: 1.5rem;
+  transition: color .4s ease;
+
+}
+
+.socials a i:hover {
+  color: aqua;
+
+}
+.col-4{
+    font-size: 1.5rem;
+}
